@@ -60,12 +60,12 @@ const Hero = () => {
         </div>
       </div>
       <div className="partners-logo">
-       <img src={LogoSmall} alt="" />
-       <img src={PrestoLogo} alt="" />
-       <img src={LogoSmall} alt="" />
-       <img src={PrestoLogo} alt="" />
-       <img src={LogoName} alt="" />
-       <img src={PresName} alt="" />
+        <img src={LogoSmall} alt="" />
+        <img src={PrestoLogo} alt="" />
+        <img src={LogoSmall} alt="" />
+        <img src={PrestoLogo} alt="" />
+        <img src={LogoName} alt="" />
+        <img src={PresName} alt="" />
       </div>
     </HeroContainer>
   );

@@ -21,7 +21,6 @@ export const ServiceContainer = styled.div`
   .center-text-big {
     color: #fff;
     text-align: center;
-
     font-family: "Manrope", sans-serif;
     font-size: 48px;
     font-style: normal;

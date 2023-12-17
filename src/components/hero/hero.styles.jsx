@@ -130,7 +130,7 @@ export const HeroContainer = styled.div`
     z-index: -2;
   }
 
-  .partners-logo{
+  .partners-logo {
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
