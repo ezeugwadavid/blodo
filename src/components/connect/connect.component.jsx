@@ -30,19 +30,19 @@ const Connect = () => {
           </div>
 
           <div className="point-text">
-            <img src={Tick} alt="" />
+            <img className="tick" src={Tick} alt="" />
             <div className="point-para">
               We connect our customers with the best.
             </div>
           </div>
           <div className="point-text">
-            <img src={Tick} alt="" />
+            <img className="tick" src={Tick} alt="" />
             <div className="point-para">
               Advisor success customer launch party.
             </div>
           </div>
           <div className="point-text">
-            <img src={Tick} alt="" />
+            <img className="tick" src={Tick} alt="" />
             <div className="point-para">Business-to-consumer long tail.</div>
           </div>
 

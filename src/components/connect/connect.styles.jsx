@@ -145,60 +145,89 @@ export const ConnectContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     font-family: "Open Sans", sans-serif;
-  padding-left: 0%;
-  padding-right: 0%;
-  padding-top: 100px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 100px;
 
-  .first-connect {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    .first-connect {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .man-image {
+      width: 90%;
+    }
+
+    .second-img {
+      position: absolute;
+    }
+
+    .graph-img {
+      position: relative;
+      bottom: 190px;
+      left: 90px;
+      z-index: 1;
+      width: 100%;
+      height: 250px;
+    }
+
+    .second-connect {
+      margin-top: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .woman-img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .pie-chart-img {
+      position: relative;
+      width: 200px;
+      height: 100px;
+      bottom: 200px;
+      left: 30px;
+    }
+
+    .right-section {
+      margin: 50px auto;
+      width: 90%;
+    }
+
+    .catch-text {
+      color: #000;
+      font-family: "Manrope", sans-serif;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .point-text {
+      display: flex;
+      justify-content: start;
+    }
+
+    .point-para {
+      margin-left: 10px;
+      text-align: left;
+    }
+
+    .tick {
+      width: 30px;
+      height: 30px;
+      margin: auto 0px;
+    }
+
+    .btn-section {
+      width: 30%;
+      margin-top: 50px;
+      margin-left: 20%;
+    }
   }
-
-  .man-image{
-    width: 300px;
-    height: 300px;
-  }
-
-  .second-img {
-    position: absolute;
-  }
-
-  .graph-img {
-    position: relative;
-    bottom: 300px;
-    left: 50px;
-    z-index: 1;
-    width: 200px;
-    height: 200px;
-  }
-
-
-  .second-connect {
-    margin-top: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-
-
-
-  .woman-img{
-    width: 300px;
-    height: 300px;
-  }
-
-  .pie-chart-img {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    bottom: 200px;
-    left: 30px;
-  }
-
- 
-
-
-  };
 `;
