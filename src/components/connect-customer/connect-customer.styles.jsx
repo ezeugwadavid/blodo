@@ -45,4 +45,16 @@ export const ConnectCustomerContainer = styled.div`
     margin-bottom: auto;
     margin-right: 20px;
   }
+
+
+  @media screen and (max-width: 800px) {
+    .connect-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  };
+
+
 `;

@@ -143,6 +143,62 @@ export const ConnectContainer = styled.div`
     left: 30px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
+    font-family: "Open Sans", sans-serif;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 100px;
+
+  .first-connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+
+  .man-image{
+    width: 300px;
+    height: 300px;
+  }
+
+  .second-img {
+    position: absolute;
+  }
+
+  .graph-img {
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+  }
+
+
+  .second-connect {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+
+
+  .woman-img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .pie-chart-img {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    bottom: 200px;
+    left: 30px;
+  }
+
+ 
+
+
+  };
 `;

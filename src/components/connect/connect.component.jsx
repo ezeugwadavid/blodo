@@ -16,7 +16,7 @@ const Connect = () => {
       <div className="first-connect">
         <div className="left-section">
           <div className="image-container">
-            <img src={ManImage} alt="" />
+            <img className="man-image"  src={ManImage} alt="" />
             <div className="second-img">
               <img className="graph-img" src={GraphCard} alt="" />
             </div>
@@ -81,7 +81,7 @@ const Connect = () => {
         </div>
 
         <div className="right-sec">
-          <img src={WomanImage} alt="" />
+          <img className="woman-img" src={WomanImage} alt="" />
           <div className="pie-chart">
             <img className="pie-chart-img" src={PieChart} alt="" />
           </div>
