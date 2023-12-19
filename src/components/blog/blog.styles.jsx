@@ -89,4 +89,30 @@ export const BlogContainer = styled.div`
     margin-top: 50px;
     width: 10%;
   }
+
+  @media screen and (max-width: 800px) {
+    .blog-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  justify-content: center;
+}
+
+.blog-post-item {
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.load-btn {
+    margin-right: 40%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  };
+
+ 
 `;

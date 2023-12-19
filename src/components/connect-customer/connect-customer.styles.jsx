@@ -46,15 +46,46 @@ export const ConnectCustomerContainer = styled.div`
     margin-right: 20px;
   }
 
-
   @media screen and (max-width: 800px) {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin: 0px auto;
+
     .connect-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+
+    .conn-cus-left {
+      color: #000;
+      font-family: "Manrope", sans-serif;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px;
+      width: 90%;
+      text-align: left;
+      margin: 0px auto;
+    }
+
+    .conn-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   }
-  };
 
+    .conn-cus-right {
+      width: 90%;
+      /* margin: 0px auto; */
+      margin-top: 30px;
+    }
 
+    .connect-txt {
+    width: 100%;
+  }
+  }
 `;

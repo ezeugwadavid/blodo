@@ -184,14 +184,6 @@ export const ConnectContainer = styled.div`
       height: 300px;
     }
 
-    .pie-chart-img {
-      position: relative;
-      width: 200px;
-      height: 100px;
-      bottom: 200px;
-      left: 30px;
-    }
-
     .right-section {
       margin: 50px auto;
       width: 90%;
@@ -228,6 +220,36 @@ export const ConnectContainer = styled.div`
       width: 30%;
       margin-top: 50px;
       margin-left: 20%;
+    }
+
+    .second-connect {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .left-sec {
+      margin: auto auto;
+      width: 90%;
+    }
+
+    .catch-para {
+      color: #000;
+      font-family: "Manrope", sans-serif;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px; /* 155.556% */
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    .pie-chart-img {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      bottom: 150px;
+      left: 120px;
     }
   }
 `;

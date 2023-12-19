@@ -66,4 +66,48 @@ export const ContactContainer = styled.div`
   .btn {
     width: 10%;
   }
+
+  @media screen and (max-width: 800px) {
+    .ellipse-img-cont {
+    display: none;
+  }
+
+  .contact-title {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  input {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .btn {
+    width: 40%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+
+  };
+
+
 `;

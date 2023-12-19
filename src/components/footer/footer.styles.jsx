@@ -73,4 +73,47 @@ export const FooterContainer = styled.div`
     margin-top: auto;
     margin-bottom: auto;
   }
+
+  @media screen and (max-width: 800px) {
+    font-family: "Open Sans", sans-serif;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 80px;
+    max-width: 100%;
+    margin: 40px auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .blodo-logo {
+      width: 120px;
+      height: 50px;
+      margin: 0px auto;
+    }
+
+    .f1 {
+      width: 90%;
+    }
+
+    .blodo-desc {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .reserved {
+      text-align: center;
+    }
+
+    .f-header {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .f-item {
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
 `;

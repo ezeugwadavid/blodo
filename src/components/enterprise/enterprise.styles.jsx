@@ -40,6 +40,7 @@ export const EnterpriseContainer = styled.div`
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
+    margin-left: 20px;
   }
 
   .card-1 {
@@ -121,4 +122,84 @@ export const EnterpriseContainer = styled.div`
     font-weight: 400;
     line-height: 32px;
   }
+
+  @media screen and (max-width: 800px) {
+    padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 80px;
+  margin: 0px auto;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  margin-top: 100px;
+ 
+
+  .enterprise {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .enterprise-left {
+    color: #fff;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .enterprise-right {
+    margin-top: 30px;
+    display: flex;
+   justify-content: center;
+  }
+
+  .box-card-section {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+  }
+
+  .card-1 {
+    padding: 40px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+    text-align: left;
+    margin-right: 20px;
+    height: 100%;
+  }
+
+  .card-2 {
+    text-align: left;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+    text-align: left;
+    width: 60%;
+    height: 100%;
+  }
+
+  .card-3 {
+    text-align: left;
+    margin-right: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+    text-align: left;
+    width: 70%;
+    height: 100%;
+  }
+};
+
+
+
+
 `;
