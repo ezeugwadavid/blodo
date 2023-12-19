@@ -90,8 +90,10 @@ export const HeroLgContainer = styled.div`
 
   .right-section {
     width: 50%;
+    display: flex;
+    justify-content: end;
   }
-
+/* 
   .top-square {
     display: flex;
     justify-content: end;
@@ -130,7 +132,7 @@ export const HeroLgContainer = styled.div`
     border-bottom-left-radius: 1293px;
     background: #f1f1f1;
     z-index: -2;
-  }
+  } */
 
   .partners-logo {
     display: flex;

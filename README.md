@@ -1,6 +1,10 @@
 # Blodo: Javascript/React
 
 
+## Site is live at:
+https://blodo.netlify.app/
+
+
 ## Description
 Blodo helps save time by building fast with boldo template.
 
