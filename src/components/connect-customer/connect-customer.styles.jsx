@@ -51,6 +51,7 @@ export const ConnectCustomerContainer = styled.div`
     padding-right: 0%;
     padding-top: 50px;
     padding-bottom: 70px;
+    max-width: 100%;
     margin: 0px auto;
 
     .connect-section {
@@ -73,19 +74,19 @@ export const ConnectCustomerContainer = styled.div`
     }
 
     .conn-item {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  }
+      width: 100%;
+      margin-left: 2%;
+      display: flex;
+      justify-content: space-between;
+    }
 
     .conn-cus-right {
       width: 90%;
-      /* margin: 0px auto; */
       margin-top: 30px;
     }
 
     .connect-txt {
-    width: 100%;
-  }
+      width: 100%;
+    }
   }
 `;

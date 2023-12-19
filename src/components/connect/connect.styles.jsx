@@ -156,7 +156,7 @@ export const ConnectContainer = styled.div`
     }
 
     .man-image {
-      width: 90%;
+      width: 80%;
     }
 
     .second-img {
@@ -180,7 +180,7 @@ export const ConnectContainer = styled.div`
     }
 
     .woman-img {
-      width: 300px;
+      width: 100%;
       height: 300px;
     }
 
@@ -250,6 +250,25 @@ export const ConnectContainer = styled.div`
       height: 200px;
       bottom: 150px;
       left: 120px;
+    }
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 800px) {
+    .graph-img {
+      position: relative;
+      bottom: 190px;
+      left: 100%;
+      z-index: 1;
+      width: 100%;
+      height: 250px;
+    }
+
+    .pie-chart-img {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      bottom: 150px;
+      left: 100%;
     }
   }
 `;

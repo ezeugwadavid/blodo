@@ -87,7 +87,7 @@ export const ServiceContainer = styled.div`
   @media screen and (max-width: 800px) {
     padding-left: 0%;
   padding-right: 0%;
-  max-width: 1500px;
+  max-width: 100%;
   margin: 0px auto;
   padding-top: 80px;
   padding-bottom: 90px;
@@ -144,7 +144,14 @@ export const ServiceContainer = styled.div`
     cursor: pointer;
     margin: 0px auto;
   }
-
-
   }
+
+  @media screen and (min-width: 400px) and (max-width: 800px) {
+    .humancard1 {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 50%;
+  }
+  };
 `;

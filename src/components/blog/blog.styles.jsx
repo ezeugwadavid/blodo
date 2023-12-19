@@ -92,27 +92,39 @@ export const BlogContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     .blog-section {
-  display: flex;
-  flex-direction: column;
-  margin-top: 70px;
-  justify-content: center;
-}
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      margin-top: 70px;
+      justify-content: center;
+    }
 
-.blog-post-item {
-  width: 90%;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    .blog-post-item {
+      width: 90%;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-.load-btn {
-    margin-right: 40%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    width: 50%;
+    .load-btn {
+      margin-right: 40%;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      width: 50%;
+    }
   }
-  };
 
- 
+  @media screen and (max-width: 400px) {
+    .title-desc {
+      color: #000;
+      text-align: center;
+      font-family: "Manrope", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 72px;
+      margin-bottom: 70px;
+    }
+  }
 `;

@@ -62,12 +62,12 @@ const HeroMobile = () => {
         </div>
       </div>
       <div className="partners-logo">
-        <img src={LogoSmall} alt="" />
-        <img src={PrestoLogo} alt="" />
-        <img src={LogoSmall} alt="" />
-        <img src={PrestoLogo} alt="" />
-        <img src={LogoName} alt="" />
-        <img src={PresName} alt="" />
+        <img className="logo-xs" src={LogoSmall} alt="" />
+        <img className="logo-xs" src={PrestoLogo} alt="" />
+        <img className="logo-xs" src={LogoSmall} alt="" />
+        <img className="logo-xs" src={PrestoLogo} alt="" />
+        <img className="logo-xs" src={LogoName} alt="" />
+        <img className="logo-xs" src={PresName} alt="" />
       </div>
     </HeroMobileContainer>
   );

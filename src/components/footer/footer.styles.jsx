@@ -100,6 +100,7 @@ export const FooterContainer = styled.div`
       margin-top: 30px;
       margin-bottom: 30px;
       text-align: center;
+      padding-left: 5%;
     }
 
     .reserved {

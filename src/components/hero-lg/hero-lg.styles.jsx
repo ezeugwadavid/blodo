@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
-export const HeroMobileContainer = styled.div`
+export const HeroLgContainer = styled.div`
   font-family: "Open Sans", sans-serif;
-  padding-left: 5%;
-  padding-right: 5%;
   padding-bottom: 80px;
   max-width: 1500px;
   margin: 0px auto;
@@ -18,6 +16,8 @@ export const HeroMobileContainer = styled.div`
   .top-nav {
     display: flex;
     justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .right-menu {
@@ -55,6 +55,8 @@ export const HeroMobileContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 56px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .left-section {
@@ -134,73 +136,20 @@ export const HeroMobileContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    /* padding-left: 5%;
+  padding-right: 5%; */
   }
 
-  @media screen and (max-width: 800px) {
-    font-family: "Open Sans", sans-serif;
-    padding-bottom: 80px;
-    padding-top: 30px;
-
-    .nav-icon {
-      display: flex;
-      justify-content: start;
-    }
-
-    .logo-section {
-      display: flex;
-    }
-
-    .close {
-      margin-top: auto;
-      margin-bottom: auto;
-      margin-left: auto;
-      margin-right: 15px;
-      font-size: 20px;
-      font-weight: 600px;
-      color: #0a2640;
-    }
-
-    .logo {
-      width: 100px;
-      height: 50px;
-      padding-left: 10px;
-    }
-
-    .top-nav-mobile {
-      height: 100%;
-      width: 60%;
-      background: #fff;
-      position: fixed;
-      left: 0;
-      top: 0;
-      z-index: 1;
-    }
-
-    .menu {
-      margin-top: 30%;
-    }
-
-    .item {
-      text-align: start;
-      margin-right: 0px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 10px;
-      color: #0a2640;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 28px; /* 175% */
-    }
-
+  @media screen and (min-width: 800px) and (max-width: 1100px) {
     .hero-section {
       display: flex;
+      justify-content: space-between;
       flex-direction: column;
       margin-top: 56px;
+      padding-left: 5%;
+      padding-right: 5%;
     }
 
     .left-section {
@@ -208,69 +157,39 @@ export const HeroMobileContainer = styled.div`
       width: 100%;
     }
 
-    .buy-btn {
-      width: 30%;
-      margin-right: 20%;
-    }
-
-    .explore-btn {
-      width: 15%;
-    }
-
-    .hero-text {
-      color: #000;
-      font-family: "Manrope", sans-serif;
-      font-size: 48px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 72px; /* 150% */
-      text-align: left;
-      width: 100%;
-    }
-
-    .hero-para {
-      color: #777;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 28px;
-      text-align: left;
-    }
-
     .right-section {
       width: 100%;
-      margin-top: 50px;
-    }
-
-    .partners-logo {
-      overflow-x: scroll;
-    }
-
-    .logo-xs {
-      width: 100px;
-      height: 50px;
-      padding: 0px 20px;
+      margin-top: 30px;
     }
 
     .hero-graphics {
       width: 100%;
     }
-  }
 
-  @media screen and (max-width: 500px) {
-    .btn-section {
-      margin-top: 50px;
+    .rec {
+      width: 100%;
+    }
+
+    .left-square-icon {
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    .btm-square {
       display: flex;
-      flex-direction: column;
-    }
-    .buy-btn {
-      width: 50%;
-      margin-right: 17%;
+      justify-content: end;
+      margin-top: 26px;
+      border: 1px solid black;
     }
 
-    .explore-btn {
-      width: 50%;
-      margin-top: 20px;
+    .hero-text {
+      color: #000;
+      font-family: "Manrope", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 72px; /* 150% */
+      text-align: left;
     }
   }
 `;

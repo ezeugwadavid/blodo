@@ -2,6 +2,7 @@ import React from "react";
 import { HeroContainer } from "./hero.styles";
 import HeroMobile from "../hero-mobile/hero-mobile.component";
 import HeroDesktop from "../hero-desktop/hero-desktop.component";
+import HeroLg from "../hero-lg/hero-lg.component";
 
 
 const Hero = () => {
@@ -11,7 +12,8 @@ const Hero = () => {
       <HeroMobile />
     </div>
     <div className="hero-desktop">
-      <HeroDesktop />
+      {/* <HeroDesktop /> */}
+      <HeroLg />
     </div>
     </HeroContainer>
   );
