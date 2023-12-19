@@ -100,17 +100,25 @@ export const ContactContainer = styled.div`
     }
 
     .btn {
-      width: 40%;
+      width: 20%;
       margin-top: 20px;
       display: flex;
       justify-content: center;
-      margin-left: 10%;
+      margin-left: 30%;
     }
   }
 
   @media screen and (max-width: 400px) {
     .contact-title {
       font-size: 40px;
+    }
+
+    .btn {
+      width: 10%;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      margin-left: 30%;
     }
   }
 `;

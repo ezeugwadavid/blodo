@@ -107,10 +107,11 @@ export const BlogContainer = styled.div`
     }
 
     .load-btn {
-      margin-right: 40%;
+      margin-left: 3%;
+      margin-right: 0px;
       margin-top: 50px;
       display: flex;
-      justify-content: center;
+      justify-content: start;
       width: 50%;
     }
   }

@@ -142,6 +142,7 @@ export const HeroMobileContainer = styled.div`
     font-family: "Open Sans", sans-serif;
     padding-bottom: 80px;
     padding-top: 30px;
+    max-width: 100%;
 
     .nav-icon {
       display: flex;

@@ -198,4 +198,40 @@ export const EnterpriseContainer = styled.div`
       height: 100%;
     }
   }
+
+  @media screen and (min-width: 800px) and (max-width: 1100px) {
+    .card-1 {
+      padding: 40px;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+      text-align: left;
+      margin-right: 20px;
+      height: 100%;
+    }
+
+    .card-2 {
+      text-align: left;
+      margin-right: 20px;
+      padding: 20px;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+      text-align: left;
+      width: 60%;
+      height: 100%;
+    }
+
+    .card-3 {
+      text-align: left;
+      margin-right: 20px;
+      padding: 25px;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+      text-align: left;
+      width: 70%;
+      height: 100%;
+    }
+  };
 `;

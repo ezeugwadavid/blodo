@@ -147,6 +147,7 @@ export const ConnectContainer = styled.div`
     font-family: "Open Sans", sans-serif;
     padding-left: 0%;
     padding-right: 0%;
+    max-width: 100%;
     padding-top: 100px;
 
     .first-connect {
@@ -269,6 +270,48 @@ export const ConnectContainer = styled.div`
       height: 200px;
       bottom: 150px;
       left: 100%;
+    }
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1100px) {
+    .man-image {
+      width: 80%;
+    }
+
+    .right-section {
+      margin: auto 0px;
+      width: 50%;
+    }
+
+    .left-sec {
+      margin: auto 0px;
+      width: 50%;
+    }
+
+    .graph-img {
+      position: relative;
+      bottom: 250px;
+      left: 70px;
+      z-index: 1;
+    }
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1000px) {
+    .left-sec {
+      margin: auto 0px;
+      width: 60%;
+    }
+    .woman-img {
+      width: 100%;
+      height: 300px;
+    }
+
+    .pie-chart-img {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      bottom: 150px;
+      left: 50%;
     }
   }
 `;

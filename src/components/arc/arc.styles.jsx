@@ -9,7 +9,6 @@ export const ArcContainer = styled.div`
     position: absolute;
     right: 0;
     top: 0;
-    /* bottom: 200px; */
     display: flex;
     justify-content: end;
     z-index: -1;

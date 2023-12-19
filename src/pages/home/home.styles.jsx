@@ -8,7 +8,4 @@ export const HomeContainer = styled.div`
   .enterprise-comp {
     background: #0a2640;
   }
-
-  @media screen and (max-width: 768px) {
-  }
 `;

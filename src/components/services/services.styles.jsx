@@ -86,72 +86,72 @@ export const ServiceContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     padding-left: 0%;
-  padding-right: 0%;
-  max-width: 100%;
-  margin: 0px auto;
-  padding-top: 80px;
-  padding-bottom: 90px;
-
-  .center-text-big {
-    color: #fff;
-    text-align: center;
-    font-family: "Manrope", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 72px;
-    margin-top: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-
-  .card-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .card-item {
-    width: 100%;
-    margin-top: 70px;
-  }
-
-  .humancard1 {
-    display: flex;
-    justify-content: center;
+    padding-right: 0%;
+    max-width: 100%;
     margin: 0px auto;
-    width: 90%;
-  }
+    padding-top: 80px;
+    padding-bottom: 90px;
 
-  .btm-text {
-    margin-top: 24px;
-    margin-bottom: 10px;
-    color: #fff;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
-    display: flex;
-    justify-content: center;
-  }
+    .center-text-big {
+      color: #fff;
+      text-align: center;
+      font-family: "Manrope", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 72px;
+      margin-top: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
 
-  .nav-text-container {
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid #fff;
-    width: 40%;
-    cursor: pointer;
-    margin: 0px auto;
-  }
+    .card-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-item {
+      width: 100%;
+      margin-top: 70px;
+    }
+
+    .humancard1 {
+      display: flex;
+      justify-content: center;
+      margin: 0px auto;
+      width: 90%;
+    }
+
+    .btm-text {
+      margin-top: 24px;
+      margin-bottom: 10px;
+      color: #fff;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 36px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .nav-text-container {
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #fff;
+      width: 40%;
+      cursor: pointer;
+      margin: 0px auto;
+    }
   }
 
   @media screen and (min-width: 400px) and (max-width: 800px) {
     .humancard1 {
-    display: flex;
-    justify-content: center;
-    margin: 0px auto;
-    width: 50%;
+      display: flex;
+      justify-content: center;
+      margin: 0px auto;
+      width: 50%;
+    }
   }
-  };
 `;

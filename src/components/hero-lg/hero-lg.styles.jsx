@@ -138,11 +138,10 @@ export const HeroLgContainer = styled.div`
     margin-top: 90px;
     padding-left: 8%;
     padding-right: 8%;
-    /* padding-left: 5%;
-  padding-right: 5%; */
   }
 
   @media screen and (min-width: 800px) and (max-width: 1100px) {
+    max-width: 100%;
     .hero-section {
       display: flex;
       justify-content: space-between;
@@ -190,6 +189,20 @@ export const HeroLgContainer = styled.div`
       font-weight: 400;
       line-height: 72px; /* 150% */
       text-align: left;
+    }
+
+    .partners-logo {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 90px;
+      padding-left: 8%;
+      padding-right: 8%;
+      overflow-x: scroll;
+    }
+
+    .pat-logo {
+      padding-left: 2%;
+      padding-right: 2%;
     }
   }
 `;
