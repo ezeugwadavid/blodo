@@ -96,7 +96,7 @@ export const ServiceContainer = styled.div`
       color: #fff;
       text-align: center;
       font-family: "Manrope", sans-serif;
-      font-size: 40px;
+      font-size: 35px;
       font-style: normal;
       font-weight: 400;
       line-height: 72px;
